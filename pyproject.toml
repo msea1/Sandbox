@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "flask-sample"
+version = "1.0"
+description = ""
+authors = ["Matthew Carruth <carruthm@gmail.com>"]
+
+[tool.poetry.dependencies]
+Flask = "^2.2.2"
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
