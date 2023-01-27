@@ -130,6 +130,17 @@ files = [
 ]
 
 [[package]]
+name = "python-logstash"
+version = "0.4.8"
+description = "Python logging handler for Logstash."
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "python-logstash-0.4.8.tar.gz", hash = "sha256:d04e1ce11ecc107e4a4f3b807fc57d96811e964a554081b3bbb44732f74ef5f9"},
+]
+
+[[package]]
 name = "werkzeug"
 version = "2.2.2"
 description = "The comprehensive WSGI web application library."
@@ -150,4 +161,4 @@ watchdog = ["watchdog"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "9c6bcf7ac13c16980dde603c14adf3d6aa019987d77029284cf305989a1dd394"
+content-hash = "d0e0baef69dbe6d9d70bdbef410504e6ee70a02ca89ac16aa11390127902486a"
