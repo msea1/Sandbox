@@ -8,6 +8,8 @@ authors = ["Matthew Carruth <carruthm@gmail.com>"]
 Flask = "^2.2.2"
 python = "^3.11"
 python-logstash = "^0.4.8"
+sqlalchemy = "^2.0.0"
+alembic = "^1.9.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.2.1"
